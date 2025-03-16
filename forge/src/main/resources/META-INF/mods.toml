@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "elderlyguardians"
+version = "${version}"
+displayName = "ElderlyGuardians"
+authors = "MuriPlz"
+description = '''
+Converts guardians to elder guardians when struck by a lightning
+'''
+#logoFile = ""
+
+[[dependencies.elderlyguardians]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.elderlyguardians]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
