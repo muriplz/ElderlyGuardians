@@ -4,4 +4,5 @@ Really straightforward mod: If a Lightning Bolt hits a [Guardian](https://minecr
 
 ## Download links:
 https://modrinth.com/mod/elderly-guardians
+
 https://www.curseforge.com/members/muriplz/projects
