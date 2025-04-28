@@ -1,4 +1,4 @@
-package com.kryeit.elderlyguardians;
+package me.muriplz.elderlyguardians;
 
 public final class Elderlyguardians {
     public static final String MOD_ID = "elderlyguardians";

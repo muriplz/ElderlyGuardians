@@ -3,7 +3,7 @@
   "id": "elderlyguardians",
   "version": "${version}",
   "name": "ElderlyGuardians",
-  "description": "Converts guardians to elder guardians when struck by a lightning",
+  "description": "Economy for CubedWorlds network",
   "authors": [
     "MuriPlz"
   ],
@@ -14,17 +14,17 @@
   "icon": "assets/elderlyguardians/icon.png",
   "environment": "*",
   "entrypoints": {
-    "server": [
-      "com.kryeit.elderlyguardians.fabric.ElderlyguardiansFabric"
+    "main": [
+      "me.muriplz.elderlyguardians.fabric.ElderlyguardiansFabric"
     ]
   },
   "mixins": [
     "elderlyguardians.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.10",
-    "minecraft": "~1.20.1",
-    "java": ">=17",
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
     "fabric-api": "*"
   }
 }

@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
+loaderVersion = "[2,)"
 #issueTrackerURL = ""
 license = "MIT"
 
@@ -9,21 +9,24 @@ version = "${version}"
 displayName = "ElderlyGuardians"
 authors = "MuriPlz"
 description = '''
-Converts guardians to elder guardians when struck by a lightning
+Economy for CubedWorlds network
 '''
 #logoFile = ""
 
 [[dependencies.elderlyguardians]]
-modId = "forge"
-mandatory = true
-versionRange = "[47,)"
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.elderlyguardians]]
 modId = "minecraft"
-mandatory = true
-versionRange = "[1.20.1,)"
+type = "required"
+versionRange = "[1.21.4,)"
 ordering = "NONE"
 side = "BOTH"
 
+
+[[mixins]]
+config = "elderlyguardians.mixins.json"
